@@ -50,5 +50,8 @@ $(document).ready(function () {
 	if ($('.product').length) {
 		var productSizeHandler = new ProductSizeHandler();
 		productSizeHandler.init();
+		console.log('SIZE VIWER FILE WAS INITER');
 	}
 });
+
+console.log('SIZE VIEWER FILE IS LOADED');
